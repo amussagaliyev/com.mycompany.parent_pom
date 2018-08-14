@@ -69,7 +69,7 @@ a142857/mycompany.tomcat:1.0-SNAPSHOT
 a142857/mycompany.redis:1.0-SNAPSHOT
 ```
 
-### To run
+### To run and check
 
 1. Run PostgreSQL server
 ```
