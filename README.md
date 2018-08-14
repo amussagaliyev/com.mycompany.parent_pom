@@ -124,5 +124,6 @@ Response should be something like:
 }
 ```
 
-And on the "Notifier Service" console (see step 5) message starting with "Dear user..." should appear
+and on the "Notifier Service" console (see step 5) message starting with "Dear user..." should appear
 
+All images available on docker.io
