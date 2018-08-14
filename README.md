@@ -16,8 +16,11 @@
 14. https://github.com/amussagaliyev/com.mycompany.sdk.sdk_redis
 
 `com.mycompany.application` - web appplication
-`com.mycompany.bdk` - business logic. Service layer
-`com.mycompany.sdk` - mostly JPA entities and DAOs. Persistence layer
+
+`com.mycompany.bdk` - Service layer
+
+`com.mycompany.sdk` - mostly JPA entities and DAOs
+
 `com.mycompany.docker` - docker images based infrastructure
 
 ### To clone project:
@@ -32,7 +35,7 @@ git submodule update
 You will get release/1.0 branch.
 
 ### To build whole project
-(including docker images build) please make sure that you have the following stuff
+including docker images build please make sure that you have the following stuff
 
 1. maven
 2. docker
