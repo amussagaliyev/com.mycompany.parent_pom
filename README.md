@@ -1,19 +1,19 @@
 ﻿### This is a parent project to join and manage following projects
 
-https://github.com/amussagaliyev/com.mycompany.api.api_product_review.git
-https://github.com/amussagaliyev/com.mycompany.application.notifier_webapp.git
-https://github.com/amussagaliyev/com.mycompany.application.product_review_processor_webapp.git
-https://github.com/amussagaliyev/com.mycompany.application.product_review_webapp.git
-https://github.com/amussagaliyev/com.mycompany.bdk.bdk_product_review.git
-https://github.com/amussagaliyev/com.mycompany.bdk.bdk_product_review_queue.git
-https://github.com/amussagaliyev/com.mycompany.config.webapp_config.git
-https://github.com/amussagaliyev/com.mycompany.docker.db.git
-https://github.com/amussagaliyev/com.mycompany.docker.redis.git
-https://github.com/amussagaliyev/com.mycompany.docker.tomcat.git
-https://github.com/amussagaliyev/com.mycompany.sdk.model_core.git
-https://github.com/amussagaliyev/com.mycompany.sdk.model_product.git
-https://github.com/amussagaliyev/com.mycompany.sdk.model_product_review.git
-https://github.com/amussagaliyev/com.mycompany.sdk.sdk_redis.git
+1. https://github.com/amussagaliyev/com.mycompany.api.api_product_review
+2. https://github.com/amussagaliyev/com.mycompany.application.notifier_webapp
+3. https://github.com/amussagaliyev/com.mycompany.application.product_review_processor_webapp
+4. https://github.com/amussagaliyev/com.mycompany.application.product_review_webapp
+5. https://github.com/amussagaliyev/com.mycompany.bdk.bdk_product_review
+6. https://github.com/amussagaliyev/com.mycompany.bdk.bdk_product_review_queue
+7. https://github.com/amussagaliyev/com.mycompany.config.webapp_config
+8. https://github.com/amussagaliyev/com.mycompany.docker.db
+9. https://github.com/amussagaliyev/com.mycompany.docker.redis
+10. https://github.com/amussagaliyev/com.mycompany.docker.tomcat
+11. https://github.com/amussagaliyev/com.mycompany.sdk.model_core
+12. https://github.com/amussagaliyev/com.mycompany.sdk.model_product
+13. https://github.com/amussagaliyev/com.mycompany.sdk.model_product_review
+14. https://github.com/amussagaliyev/com.mycompany.sdk.sdk_redis
 
 `com.mycompany.application` - web appplication
 `com.mycompany.bdk` - business logic. Service layer
