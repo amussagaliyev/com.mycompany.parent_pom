@@ -88,12 +88,12 @@ docker run -p 8080:8080 --link mycompany.db:mycompany.db --link mycompany.redis:
 
 4. Run Reviews Processor Service
 ```
-docker run -p 8180:8180 --link mycompany.db:mycompany.db --link mycompany.redis:mycompany.redis --name mycompany.product_review_processor_webapp a142857/mycompany.product_review_processor_webapp:1.0-SNAPSHOT
+docker run --link mycompany.db:mycompany.db --link mycompany.redis:mycompany.redis --name mycompany.product_review_processor_webapp a142857/mycompany.product_review_processor_webapp:1.0-SNAPSHOT
 ```
 
 5. Run Notifier Service
 ```
-docker run -p 8280:8280 --link mycompany.db:mycompany.db --link mycompany.redis:mycompany.redis --name mycompany.notifier_webapp a142857/mycompany.notifier_webapp:1.0-SNAPSHOT
+docker run -p --link mycompany.db:mycompany.db --link mycompany.redis:mycompany.redis --name mycompany.notifier_webapp a142857/mycompany.notifier_webapp:1.0-SNAPSHOT
 ```
 
 6. Try to POST request to http://localhost:8080/product_review/api/reviews with the following body
