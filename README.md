@@ -127,3 +127,9 @@ Response should be something like:
 and on the "Notifier Service" console (see step 5) message starting with "Dear user..." should appear
 
 All images available on docker.io
+
+Project deployed on AWS EC2 instance and can be called using the following URL:
+
+```
+http://34.219.134.146:8080/product_review/api/reviews
+```
