@@ -128,8 +128,6 @@ and on the "Notifier Service" console (see step 5) message starting with "Dear u
 
 All images available on docker.io
 
-Project deployed on AWS EC2 instance and can be called using the following URL:
+Project deployed on AWS EC2 instance and can be called using the following URL (could be out of sync):
 
-```
 http://34.219.134.146:8080/product_review/api/reviews
-```
