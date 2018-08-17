@@ -93,7 +93,7 @@ docker run --link mycompany.db:mycompany.db --link mycompany.redis:mycompany.red
 
 5. Run Notifier Service
 ```
-docker run -p --link mycompany.db:mycompany.db --link mycompany.redis:mycompany.redis --name mycompany.notifier_webapp a142857/mycompany.notifier_webapp:1.0-SNAPSHOT
+docker run --link mycompany.db:mycompany.db --link mycompany.redis:mycompany.redis --name mycompany.notifier_webapp a142857/mycompany.notifier_webapp:1.0-SNAPSHOT
 ```
 
 6. Try to POST request to http://localhost:8080/product_review/api/reviews with the following body
