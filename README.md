@@ -37,9 +37,8 @@ You will get release/1.0 branch.
 ### To build whole project
 including docker images build please make sure that you have the following stuff
 
-1. maven
+1. maven with configured docker hub server (see below)
 2. docker
-3. docker hub server configured within maven's settings.xml:
 
 ```
 <server>
@@ -73,7 +72,7 @@ a142857/mycompany.redis:1.0-SNAPSHOT
 
 1. Run PostgreSQL server
 ```
-docker run -d -p 5432:5432 --name mycompany.db a142857/mycompany.db:1.0-SNAPSHOT
+docker run -p 5432:5432 --name mycompany.db a142857/mycompany.db:1.0-SNAPSHOT
 ```
 
 2. Run Redis server
