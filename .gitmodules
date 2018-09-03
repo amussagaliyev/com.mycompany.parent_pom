@@ -1,56 +1,42 @@
 [submodule "com.mycompany.application.product_review_webapp"]
 	path = com.mycompany.application.product_review_webapp
 	url = https://github.com/amussagaliyev/com.mycompany.application.product_review_webapp.git
-    branch = release/1.0
 [submodule "com.mycompany.application.product_review_processor_webapp"]
 	path = com.mycompany.application.product_review_processor_webapp
 	url = https://github.com/amussagaliyev/com.mycompany.application.product_review_processor_webapp.git
-    branch = release/1.0
 [submodule "com.mycompany.application.notifier_webapp"]
 	path = com.mycompany.application.notifier_webapp
 	url = https://github.com/amussagaliyev/com.mycompany.application.notifier_webapp.git
-    branch = release/1.0
 [submodule "com.mycompany.api.api_product_review"]
 	path = com.mycompany.api.api_product_review
 	url = https://github.com/amussagaliyev/com.mycompany.api.api_product_review.git
-	branch = release/1.0
 [submodule "com.mycompany.bdk.bdk_product_review"]
 	path = com.mycompany.bdk.bdk_product_review
 	url = https://github.com/amussagaliyev/com.mycompany.bdk.bdk_product_review.git
-    branch = release/1.0
 [submodule "com.mycompany.bdk.bdk_product_review_queue"]
 	path = com.mycompany.bdk.bdk_product_review_queue
 	url = https://github.com/amussagaliyev/com.mycompany.bdk.bdk_product_review_queue.git
-    branch = release/1.0
 [submodule "com.mycompany.config.webapp_config"]
 	path = com.mycompany.config.webapp_config
 	url = https://github.com/amussagaliyev/com.mycompany.config.webapp_config.git
-    branch = release/1.0
 [submodule "com.mycompany.docker.db"]
 	path = com.mycompany.docker.db
 	url = https://github.com/amussagaliyev/com.mycompany.docker.db.git
-    branch = release/1.0
 [submodule "com.mycompany.docker.redis"]
 	path = com.mycompany.docker.redis
 	url = https://github.com/amussagaliyev/com.mycompany.docker.redis.git
-    branch = release/1.0
 [submodule "com.mycompany.docker.tomcat"]
 	path = com.mycompany.docker.tomcat
 	url = https://github.com/amussagaliyev/com.mycompany.docker.tomcat.git
-    branch = release/1.0
 [submodule "com.mycompany.sdk.model_core"]
 	path = com.mycompany.sdk.model_core
 	url = https://github.com/amussagaliyev/com.mycompany.sdk.model_core.git
-    branch = release/1.0
 [submodule "com.mycompany.sdk.model_product"]
 	path = com.mycompany.sdk.model_product
 	url = https://github.com/amussagaliyev/com.mycompany.sdk.model_product.git
-    branch = release/1.0
 [submodule "com.mycompany.sdk.model_product_review"]
 	path = com.mycompany.sdk.model_product_review
 	url = https://github.com/amussagaliyev/com.mycompany.sdk.model_product_review.git
-    branch = release/1.0
 [submodule "com.mycompany.sdk.sdk_redis"]
 	path = com.mycompany.sdk.sdk_redis
 	url = https://github.com/amussagaliyev/com.mycompany.sdk.sdk_redis.git
-    branch = release/1.0
