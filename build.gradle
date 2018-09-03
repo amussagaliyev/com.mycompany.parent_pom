@@ -1,22 +1,53 @@
-allprojects  {
-  apply plugin: 'maven'
-
-  group = 'com.mycompany'
-version = '2.0-SNAPSHOT'
+subprojects {
+    apply plugin: 'java'
 }
 
-subprojects {
-  apply plugin: 'java'
-  sourceCompatibility = 1.5
-  targetCompatibility = 1.5
 
-  
-  repositories {
-    mavenLocal()
-    mavenCentral()
-  }
+project(":model_product") {
+	dependencies {
+		compile project(":model_core")
+	}
+}
 
-  
-  
-  
+project(":model_product_review") {
+	dependencies {
+		compile project(":model_product")
+	}
+}
+
+project(":bdk_product_review_queue") {
+	dependencies {
+		compile project(":bdk_product_review")
+		compile project(":sdk_redis")
+		compile project(":model_product_review")
+	}
+}
+
+project(":bdk_product_review") {
+	dependencies {
+		compile project(":model_product_review")
+		compile project(":sdk_redis")
+	}
+}
+
+project(":product_review_webapp") {
+	dependencies {
+		compile project(":bdk_product_review_queue")
+		compile project(":api_product_review")
+		compile project(":webapp_config")
+	}
+}
+
+project(":product_review_processor_webapp") {
+	dependencies {
+		compile project(":webapp_config")
+		compile project(":bdk_product_review_queue")
+	}
+}
+
+project(":notifier_webapp") {
+	dependencies {
+		compile project(":bdk_product_review_queue")
+		compile project(":webapp_config")
+	}
 }

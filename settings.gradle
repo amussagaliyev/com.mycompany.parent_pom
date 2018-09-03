@@ -1,1 +1,17 @@
+enableFeaturePreview('STABLE_PUBLISHING')
+
 rootProject.name = 'parent_pom'
+
+include 'api_product_review', 'notifier_webapp', 'product_review_processor_webapp', 'product_review_webapp', 'bdk_product_review', 'bdk_product_review_queue', 'webapp_config', 'model_core', 'model_product', 'model_product_review', 'sdk_redis'
+
+project(":api_product_review").projectDir = file("com.mycompany.api.api_product_review")
+project(":sdk_redis").projectDir = file("com.mycompany.sdk.sdk_redis")
+project(":model_core").projectDir = file("com.mycompany.sdk.model_core")
+project(":model_product").projectDir = file("com.mycompany.sdk.model_product")
+project(":model_product_review").projectDir = file("com.mycompany.sdk.model_product_review")
+project(":bdk_product_review").projectDir = file("com.mycompany.bdk.bdk_product_review")
+project(":bdk_product_review_queue").projectDir = file("com.mycompany.bdk.bdk_product_review_queue")
+project(":webapp_config").projectDir = file("com.mycompany.config.webapp_config")
+project(":notifier_webapp").projectDir = file("com.mycompany.application.notifier_webapp")
+project(":product_review_processor_webapp").projectDir = file("com.mycompany.application.product_review_processor_webapp")
+project(":product_review_webapp").projectDir = file("com.mycompany.application.product_review_webapp")
